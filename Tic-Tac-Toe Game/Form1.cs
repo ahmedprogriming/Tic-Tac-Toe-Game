@@ -196,57 +196,19 @@ namespace Tic_Tac_Toe_Game
         }
 
 
-        private void pBQ1_Click(object sender, EventArgs e)
+        private void pBQ_Click(object sender, EventArgs e)
         {
-            Changimg(pBQ1);
+         
+            Changimg((PictureBox)sender);
         }
 
-        private void pBQ2_Click(object sender, EventArgs e)
-        {
-            Changimg(pBQ2);
-
-        }
-
-        private void pBQ3_Click(object sender, EventArgs e)
-        {
-
-            Changimg(pBQ3);
-        }
-
-        private void pBQ4_Click(object sender, EventArgs e)
-        {
-            Changimg(pBQ4);
-        }
-
+    
 
         private void butGAmReast_Click(object sender, EventArgs e)
         {
             RestartGame();
         }
 
-        private void pBQ5_Click_1(object sender, EventArgs e)
-        {
-            Changimg(pBQ5);
-        }
-
-        private void pBQ6_Click_1(object sender, EventArgs e)
-        {
-            Changimg(pBQ6);
-        }
-
-        private void pBQ7_Click_1(object sender, EventArgs e)
-        {
-            Changimg(pBQ7);
-        }
-
-        private void pBQ8_Click_1(object sender, EventArgs e)
-        {
-            Changimg(pBQ8);
-        }
-
-        private void pBQ9_Click_1(object sender, EventArgs e)
-        {
-            Changimg(pBQ9);
-        }
+    
     }
 }
